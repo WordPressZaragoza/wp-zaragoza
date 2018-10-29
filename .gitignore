@@ -1,19 +1,102 @@
-*.log
+########################
+# Wordpress Core files #
+########################
 wp-config.php
-wp-content/advanced-cache.php
 wp-content/backup-db/
 wp-content/backups/
 wp-content/blogs.dir/
-wp-content/cache/
 wp-content/upgrade/
 wp-content/uploads/
 wp-content/mu-plugins/
-wp-content/wp-cache-config.php
 wp-content/plugins/hello.php
 
 /.htaccess
 /license.txt
 /readme.html
+
+###################################
+# WordPress Cache untracked files #
+###################################
+wp-content/advanced-cache.php
+wp-content/cache/
+wp-content/wp-cache-config.php
+
+############
+# Sitemaps #
+############
 /sitemap.xml
 /sitemap.xml.gz
 
+#############################
+# Logs, databases and misc. #
+#############################
+/.idea
+*.log
+*.sql
+*.sqlite
+*.sass-cache
+.bash_history
+.bash_logout
+.bashrc
+.cache
+.profile
+.mysql_history
+
+############
+# Packages #
+############
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+*.bat
+
+###################
+# Compiled source #
+###################
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+###################
+# Temporary files #
+###################
+*.swp
+*.swo
+*~
+
+######################
+# OS generated files #
+######################
+.DS_Store*
+ehthumbs.db
+Icon?
+Thumbs.db
+*.lock
+package-lock.json
+
+##################################
+# W3 Total Cache untracked files #
+##################################
+wp-content/db.php
+wp-content/object-cache.php
+wp-content/w3tc-config/
+
+########################################
+# EWWW Image Optimizer untracked files #
+########################################
+wp-content/ewww/
+
+#############################
+# WordFence untracked files #
+#############################
+wp-content/wfcache/
+wp-content/wflogs/
+wordfence-waf.php

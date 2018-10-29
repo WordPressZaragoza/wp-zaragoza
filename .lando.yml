@@ -1,0 +1,31 @@
+name: wpzaragoza
+recipe: wordpress
+proxy:
+  appserver:
+  - web.wpzaragoza.lndo.site
+  database:
+  - db.wpzaragoza.lndo.site
+  mailhog:
+  - mail.wpzaragoza.lndo.site
+  pma:
+  - pma.wpzaragoza.lndo.site
+config:
+  php: '7.2'
+  xdebug: true
+  database: mariadb
+  webroot: .
+services:
+  database:
+    portforward: 3308
+    creds:
+      user: wordpress
+      password: wordpress
+      database: wordpress
+  mailhog:
+    type: mailhog
+    hogfrom:
+    - appserver
+    portforward: 1026
+  pma:
+    type: phpmyadmin
+    hosts: database
