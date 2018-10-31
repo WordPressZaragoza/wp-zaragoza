@@ -29,3 +29,14 @@ services:
   pma:
     type: phpmyadmin
     hosts: database
+  node:
+    type: node:8.9
+    globals:
+      gulp-cli: "latest"
+tooling:
+  npm:
+    service: node
+  node:
+    service: node
+  gulp:
+    service: node
