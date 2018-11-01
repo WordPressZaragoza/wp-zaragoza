@@ -1,0 +1,305 @@
+# Translation of Plugins - WP-Sweep - Stable (latest release) in Spanish (Spain)
+# This file is distributed under the same license as the Plugins - WP-Sweep - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2017-11-25 13:16:14+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: es\n"
+"Project-Id-Version: Plugins - WP-Sweep - Stable (latest release)\n"
+
+#: wp-sweep.php:731
+msgid "%s Duplicated Term Meta Processed"
+msgstr "%s término meta duplicado procesados"
+
+#: wp-sweep.php:650
+msgid "%s Orphaned Term Meta Processed"
+msgstr "%s términos meta huérfanos procesados"
+
+#: admin.php:425
+msgid "Duplicated Term Meta"
+msgstr "Término meta duplicado"
+
+#: admin.php:405
+msgid "Orphaned Term Meta"
+msgstr "Término meta huérfano"
+
+#: admin.php:391
+msgid "There are a total of <strong class=\"attention \"><span class=\"sweep-count-type-terms\">%1$s</span> Terms</strong>, <strong class=\"attention \"><span class=\"sweep-count-type-termmeta\">%2$s</span> Term Meta</strong>, <strong class=\"attention\"><span class=\"sweep-count-type-term_taxonomy\">%3$s</span> Term Taxonomy</strong> and <strong class=\"attention\"><span class=\"sweep-count-type-term_relationships\">%4$s</span> Term Relationships</strong>."
+msgstr "Hay un total de <strong class=\"attention \"><span class=\"sweep-count-type-terms\">%1$s</span> términos</strong>, <strong class=\"attention \"><span class=\"sweep-count-type-termmeta\">%2$s</span> metas de término</strong>, <strong class=\"attention\"><span class=\"sweep-count-type-term_taxonomy\">%3$s</span> taxonomías de término</strong> y <strong class=\"attention\"><span class=\"sweep-count-type-term_relationships\">%4$s</span> relaciones de términos</strong>."
+
+#. Author URI of the plugin/theme
+msgid "https://lesterchan.net"
+msgstr "https://lesterchan.net"
+
+#. Author of the plugin/theme
+msgid "Lester 'GaMerZ' Chan"
+msgstr "Lester 'GaMerZ' Chan"
+
+#. Description of the plugin/theme
+msgid "WP-Sweep allows you to clean up unused, orphaned and duplicated data in your WordPress. It cleans up revisions, auto drafts, unapproved comments, spam comments, trashed comments, orphan post meta, orphan comment meta, orphan user meta, orphan term relationships, unused terms, duplicated post meta, duplicated comment meta, duplicated user meta and transient options. It also optimizes your database tables."
+msgstr "WP-Sweep te permite limpiar datos no utilizados, huérfanos y duplicados en tu WordPress. Limpia revisions, borradores automáticos, comentarios sin aprobar, comentarios spam, comentarios en la papelera, meta de entradas huérfanos, meta de comentarios huérfanos, meta de usuarios huérfanos, relaciones de términos huérfanos, términos sin utilizar, meta de entradas duplicados, meta de comentarios duplicados, meta de usuarios duplicados y opciones de datos transitorios. También optimiza las tablas de tu base de datos."
+
+#. Plugin URI of the plugin/theme
+msgid "https://lesterchan.net/portfolio/programming/php/"
+msgstr "https://lesterchan.net/portfolio/programming/php/"
+
+#: wp-sweep.php:754
+msgid "%s oEmbed Caches In Post Meta Processed"
+msgstr "%s cachés oEmbed en meta de entradas procesadas"
+
+#: wp-sweep.php:739
+msgid "%s Tables Processed"
+msgstr "%s tablas procesadas"
+
+#: wp-sweep.php:719
+msgid "%s Duplicated User Meta Processed"
+msgstr "%s meta de usuarios duplicados procesadas"
+
+#: wp-sweep.php:707
+msgid "%s Duplicated Comment Meta Processed"
+msgstr "%s meta de comentarios duplicados procesadas"
+
+#: wp-sweep.php:695
+msgid "%s Duplicated Post Meta Processed"
+msgstr "%s meta de entradas duplicados procesadas"
+
+#: wp-sweep.php:683
+msgid "%s Unused Terms Processed"
+msgstr "%s términos sin utilizar procesados"
+
+#: wp-sweep.php:663
+msgid "%s Orphaned Term Relationships Processed"
+msgstr "%s relaciones de términos huérfanas procesadas"
+
+#: wp-sweep.php:635
+msgid "%s Orphaned User Meta Processed"
+msgstr "%s meta de usuarios huérfanos procesadas"
+
+#: wp-sweep.php:620
+msgid "%s Orphaned Comment Meta Processed"
+msgstr "%s meta de comentarios huérfanos procesadas"
+
+#: wp-sweep.php:605
+msgid "%s Orphaned Post Meta Processed"
+msgstr "%s meta de entradas huérfanos procesadas"
+
+#: wp-sweep.php:590
+msgid "%s Transient Options Processed"
+msgstr "%s opciones de datos transitorios procesados"
+
+#: wp-sweep.php:576
+msgid "%s Trash Comments Processed"
+msgstr "%s comentarios de la papelera procesados"
+
+#: wp-sweep.php:566
+msgid "%s Spam Comments Processed"
+msgstr "%s comentarios spam procesados"
+
+#: wp-sweep.php:556
+msgid "%s Unapproved Comments Processed"
+msgstr "%s comentarios sin aprobar procesados"
+
+#: wp-sweep.php:546
+msgid "%s Deleted Posts Processed"
+msgstr "%s entradas borradas procesadas"
+
+#: wp-sweep.php:536
+msgid "%s Auto Drafts Processed"
+msgstr "%s borradores automáticos procesados"
+
+#: wp-sweep.php:526
+msgid "%s Revisions Processed"
+msgstr "%s revisiones procesadas"
+
+#: wp-sweep.php:188 wp-sweep.php:213
+msgid "Failed to verify referrer."
+msgstr "Fallo al verificar el referente."
+
+#: wp-sweep.php:153
+msgid "Sweeping ..."
+msgstr "Barriendo…"
+
+#: wp-sweep.php:150
+msgid "Sweeping is in progress. If you leave now, the process won't be completed."
+msgstr "El barrido está en progreso. Si sales ahora el proceso no se completará."
+
+#: admin.php:563
+msgid "Note that some unused terms might belong to draft posts that have not been published yet. Only sweep all when you do not have any draft posts."
+msgstr "Date cuenta de que algunos términos sin utilizar podría pertenecer a entradas en borrador que no se hayan publicado aún. Solo bárrelos si no tienes ninguna entrada en borrador."
+
+#: admin.php:562 admin.php:566 wp-sweep.php:152
+msgid "Sweep All"
+msgstr "Barrer todo"
+
+#: admin.php:540
+msgid "Optimize Tables"
+msgstr "Optimizar tablas"
+
+#: admin.php:526
+msgid "There are a total of <strong class=\"attention\"><span class=\"sweep-count-type-tables\">%s</span> Tables</strong>."
+msgstr "Hay un total de <strong class=\"attention\"><span class=\"sweep-count-type-tables\">%s</span> tablas</strong>."
+
+#: admin.php:525
+msgid "Database Sweep"
+msgstr "Barrido de la base de datos"
+
+#: admin.php:503
+msgid "Transient Options"
+msgstr "Opciones de datos transitorios"
+
+#: admin.php:489
+msgid "There are a total of <strong class=\"attention\"><span class=\"sweep-count-type-options\">%s</span> Options</strong>."
+msgstr "Hay un total de <strong class=\"attention\"><span class=\"sweep-count-type-options\">%s</span> opciones</strong>."
+
+#: admin.php:488
+msgid "Option Sweep"
+msgstr "Barrido de opciones"
+
+#: admin.php:466
+msgid "Note that some unused terms might belong to draft posts that have not been published yet. Only sweep this when you do not have any draft posts."
+msgstr "Date cuenta de que algunos términos sin utilizar podrían pertenecer a entradas en borrador que no se hayan publicado aún. Solo bárrelos si no tienes ninguna entrada en borrador."
+
+#: admin.php:465
+msgid "Unused Terms"
+msgstr "Términos sin utilizar"
+
+#: admin.php:445
+msgid "Orphaned Term Relationship"
+msgstr "Relaciones de términos huérfanas"
+
+#: admin.php:390
+msgid "Term Sweep"
+msgstr "Barrido de términos"
+
+#: admin.php:368
+msgid "Duplicated User Meta"
+msgstr "Metas de usuarios duplicadas"
+
+#: admin.php:348
+msgid "Orphaned User Meta"
+msgstr "Metas de usuarios huérfanas"
+
+#: admin.php:334
+msgid "There are a total of <strong class=\"attention\"><span class=\"sweep-count-type-users\">%1$s</span> Users</strong> and <strong class=\"attention\"><span class=\"sweep-count-type-usermeta\">%2$s</span> User Meta</strong>."
+msgstr "Hay un total de <strong class=\"attention\"><span class=\"sweep-count-type-users\">%1$s</span> usuarios</strong> y <strong class=\"attention\"><span class=\"sweep-count-type-usermeta\">%2$s</span> metas de usuarios</strong>."
+
+#: admin.php:333
+msgid "User Sweep"
+msgstr "Barrido de usuarios"
+
+#: admin.php:311
+msgid "Duplicated Comment Meta"
+msgstr "Metas de comentarios duplicados"
+
+#: admin.php:291
+msgid "Orphaned Comment Meta"
+msgstr "Metas de comentarios huérfanos"
+
+#: admin.php:271
+msgid "Deleted Comments"
+msgstr "Comentarios borrados"
+
+#: admin.php:251
+msgid "Spammed Comments"
+msgstr "Comentarios spam"
+
+#: admin.php:231
+msgid "Unapproved Comments"
+msgstr "Comentarios sin aprobar"
+
+#: admin.php:217
+msgid "There are a total of <strong class=\"attention\"><span class=\"sweep-count-type-comments\">%1$s</span> Comments</strong> and <strong class=\"attention\"><span class=\"sweep-count-type-commentmeta\">%2$s</span> Comment Meta</strong>."
+msgstr "Hay un total de <strong class=\"attention\"><span class=\"sweep-count-type-comments\">%1$s</span> comentarios</strong> y <strong class=\"attention\"><span class=\"sweep-count-type-commentmeta\">%2$s</span> metas de comentarios</strong>."
+
+#: admin.php:216
+msgid "Comment Sweep"
+msgstr "Barrido de comentarios"
+
+#: admin.php:194
+msgid "oEmbed Caches In Post Meta"
+msgstr "Cachés oEmbed en metas de entradas"
+
+#: admin.php:174
+msgid "Duplicated Post Meta"
+msgstr "Metas de entradas duplicadas"
+
+#: admin.php:154
+msgid "Orphaned Post Meta"
+msgstr "Metas de entradas huérfanas"
+
+#: admin.php:134
+msgid "Deleted Posts"
+msgstr "Entradas borradas"
+
+#: admin.php:114
+msgid "Auto Drafts"
+msgstr "Borradores automáticos"
+
+#: admin.php:108 admin.php:128 admin.php:148 admin.php:168 admin.php:188
+#: admin.php:208 admin.php:245 admin.php:265 admin.php:285 admin.php:305
+#: admin.php:325 admin.php:362 admin.php:382 admin.php:419 admin.php:439
+#: admin.php:459 admin.php:480 admin.php:517 admin.php:547 admin.php:554
+#: wp-sweep.php:154
+msgid "N/A"
+msgstr "N/D"
+
+#: admin.php:105 admin.php:125 admin.php:145 admin.php:165 admin.php:185
+#: admin.php:205 admin.php:242 admin.php:262 admin.php:282 admin.php:302
+#: admin.php:322 admin.php:359 admin.php:379 admin.php:416 admin.php:436
+#: admin.php:456 admin.php:477 admin.php:514 admin.php:551 wp-sweep.php:151
+#: wp-sweep.php:167
+msgid "Sweep"
+msgstr "Barrer"
+
+#: admin.php:94
+msgid "Revisions"
+msgstr "Revisiones"
+
+#: admin.php:88 admin.php:225 admin.php:342 admin.php:399 admin.php:497
+#: admin.php:534
+msgid "Action"
+msgstr "Acción"
+
+#: admin.php:87 admin.php:224 admin.php:341 admin.php:398 admin.php:496
+#: admin.php:533
+msgid "% Of"
+msgstr "% de"
+
+#: admin.php:86 admin.php:223 admin.php:340 admin.php:397 admin.php:495
+#: admin.php:532
+msgid "Count"
+msgstr "Contador"
+
+#: admin.php:85 admin.php:106 admin.php:126 admin.php:146 admin.php:166
+#: admin.php:186 admin.php:206 admin.php:222 admin.php:243 admin.php:263
+#: admin.php:283 admin.php:303 admin.php:323 admin.php:339 admin.php:360
+#: admin.php:380 admin.php:396 admin.php:417 admin.php:437 admin.php:457
+#: admin.php:478 admin.php:494 admin.php:515 admin.php:531 admin.php:552
+msgid "Details"
+msgstr "Detalles"
+
+#: admin.php:80
+msgid "There are a total of <strong class=\"attention\"><span class=\"sweep-count-type-posts\">%1$s</span> Posts</strong> and <strong class=\"attention\"><span class=\"sweep-count-type-postmeta\">%2$s</span> Post Meta</strong>."
+msgstr "Hay un total de <strong class=\"attention\"><span class=\"sweep-count-type-posts\">%1$s</span> entradas</strong> y <strong class=\"attention\"><span class=\"sweep-count-type-postmeta\">%2$s</span> metas de entradas</strong>."
+
+#: admin.php:79
+msgid "Post Sweep"
+msgstr "Barrido de entradas"
+
+#: admin.php:77
+msgid "For performance reasons, only %s items will be shown if you click Details"
+msgstr "Por motivos de rendimiento solo se mostrarán %s elementos si haces clic en Detalles"
+
+#: admin.php:73
+msgid "Before you do any sweep, please <a href=\"%1$s\" target=\"%2$s\">backup your database</a> first because any sweep done is irreversible."
+msgstr "Antes de hacer ningún barrido, por favor, primero <a href=\"%1$s\" target=\"%2$s\">haz copia de seguridad de tu base de datos</a> ya que cualquier barrido realizado será irreversible."
+
+#. #-#-#-#-#  wp-sweep-code.pot (WP-Sweep 1.0.12)  #-#-#-#-#
+#. Plugin Name of the plugin/theme
+#: admin.php:70
+msgid "WP-Sweep"
+msgstr "WP-Sweep"
