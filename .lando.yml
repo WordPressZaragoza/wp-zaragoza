@@ -1,20 +1,33 @@
 name: wpzaragoza
+
+# See: https://docs.devwithlando.io/tutorials/wordpress.html
 recipe: wordpress
-proxy:
-  appserver:
-  - web.wpzaragoza.lndo.site
-  database:
-  - db.wpzaragoza.lndo.site
-  mailhog:
-  - mail.wpzaragoza.lndo.site
-  pma:
-  - pma.wpzaragoza.lndo.site
 config:
   php: '7.2'
-  xdebug: true
-  database: mariadb
   webroot: .
+  database: mariadb
+  xdebug: true
+
+# See: https://docs.devwithlando.io/config/proxy.html
+proxy:
+  appserver:
+    - web.wpzaragoza.lndo.site
+  node:
+    - node.wpzaragoza.lndo.site
+  database:
+    - db.wpzaragoza.lndo.site
+  mailhog:
+    - mail.wpzaragoza.lndo.site
+  pma:
+    - pma.wpzaragoza.lndo.site
+
+# See: https://docs.devwithlando.io/config/services.html
 services:
+  node:
+    type: node:8.9
+    globals:
+      npm: "latest"
+      gulp-cli: "latest"
   database:
     portforward: 3308
     creds:
@@ -29,14 +42,14 @@ services:
   pma:
     type: phpmyadmin
     hosts: database
-  node:
-    type: node:8.9
-    globals:
-      gulp-cli: "latest"
+
+# See: https://docs.devwithlando.io/config/tooling.html
 tooling:
   npm:
     service: node
   node:
     service: node
   gulp:
+    service: node
+  yarn:
     service: node
